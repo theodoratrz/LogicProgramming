@@ -14,4 +14,6 @@ The exercises of this group are all CSP-based problems, and are solved using the
 2. `Liars`: Find out who is liar.
 3. `Car Sequence`: Place the cars in the right order.
 4. `Tents`: Place a tent next to a tree, in a NxM matrix.
+
+
 All exercises are implemented in [ECLiPSe-CLP](https://eclipseclp.org/) Prolog.
