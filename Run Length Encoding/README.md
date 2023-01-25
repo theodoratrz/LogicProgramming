@@ -24,10 +24,10 @@ L = [g(X),h(Y),h(Y),h(Y),k(Z),m(W),m(W),m(W),m(W),n(U)]`
 Κάποια παραδείγματα εκτέλεσης:
 
 `?- encode_rl([a,a,a,b,b,c,d,d,d,d,e], L).
-L = [(a,3),(b,2),c,(d,4),e]
-?- encode_rl([f(5,a),f(5,a),f(5,a),f(5,a),
-f(5,a),f(5,a),f(5,a)], L).
-L = [(f(5,a),7)]
-?- encode_rl([g(X),h(Y),h(Y),h(Y),k(Z),
-m(W),m(W),m(W),m(W),n(U)], L).
+L = [(a,3),(b,2),c,(d,4),e]`
+
+`?- encode_rl([f(5,a),f(5,a),f(5,a),f(5,a),f(5,a),f(5,a),f(5,a)], L).
+L = [(f(5,a),7)]`
+
+`?- encode_rl([g(X),h(Y),h(Y),h(Y),k(Z),m(W),m(W),m(W),m(W),n(U)], L).
 L = [g(X),(h(Y),3),k(Z),(m(W),4),n(U)]`
